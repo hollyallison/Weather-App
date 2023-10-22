@@ -72,6 +72,15 @@ ul {
 #temperature {
   font-size: 45px;
 }
+
+#opensource {
+  color: #86b1f8;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#opensource:hover {
+  color: #ff1494;
+}
 #name,
 #opensource {
   font-size: 12px;
