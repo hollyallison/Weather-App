@@ -14,6 +14,9 @@
 h1 {
   padding-top: 20px;
 }
+h1, h2 {
+  font-size: 25px;
+}
 ul {
   list-style: none;
   font-size: 20px;
@@ -27,13 +30,15 @@ ul {
   border-radius: 3px;
 }
 #current-location-button {
-    border-radius: 3px;
+  border-radius: 3px;
+  margin-top: 5px;
+  font-size: 12px;
 }
 .weather-info {
   font-size: 12px;
   list-style: none;
   padding-left: 75%;
-  padding-bottom: 5%;
+  padding-bottom: 15%;
   margin: 0;
 }
 .weather-info li {
@@ -42,11 +47,20 @@ ul {
   align-items: center;
   font-size: 15px;
 }
+#condition {
+  font-size: 20px;
+}
 #temperature {
-font-size: 40px;
-padding-top: 10%;
+  font-size: 45px;
+  padding-top: 25%;
 }
 
-#name, #opensource {
+#name,
+#opensource {
   font-size: 12px;
+}
+.units {
+  font-size: 14px;
+  position: relative;
+  top: -16px;
 }

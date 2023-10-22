@@ -11,25 +11,30 @@
     <title>Document</title>
 </head>
 <body>
-   
+    
     <div class="weather-container"> 
         <div class="row"> 
-<div class="col-6"> 
+<div class="col-8"> 
     <div id="search-box">
       <input type="text" id="city-input" placeholder="Enter a city" />
-      <button id="search-button">Search</button>
-      <button id="current-location-button">Current Location</button>
+      <button id="search-button">Search</button> <br/>
+      <button id="current-location-button">My location</button>
     </div> 
 </div>
 <div id="result"> 
             <h1 id="city-name"></h1>
             <h2 id="current-day-time"> Monday 21:00  </h2>
-            <span id="Precipitation"></span>
+            <span id="Condition"></span><br/>
             <span id="temperature"></span>
-<div id="weather-image-container"> </div>
+            <span class="units">
+                  <a href="#" class="active" id="celsius-link">°C </a>
+                  |
+                  <a href="#" id="fahrenheit-link" class="">°F</a></span>
+<div class="clearfix">
+<img id="weather-icon" src="" alt="Weather Icon"/>
+
 </div>
     <ul class="weather-info">   
-        <li id="Precipitation">Precipitation:3% </li>
         <li id="Humidity">Humidity:82% </li>
         <li id="Wind">Wind: 6mph </li>
     </ul>
@@ -48,7 +53,7 @@
 </form>
 <script src="script.js"></script>
 
- <a href="https://github.com/hollyallison/Weather-App" id="opensource"> Open-source code</a> <span id="name"> by Holly Allison </span>
 
+<a href="https://github.com/hollyallison/Weather-App" id="opensource"> Open-source code</a> <span id="name"> by Holly Allison </span>
 </body>
 </html>
