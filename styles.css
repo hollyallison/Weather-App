@@ -11,10 +11,11 @@ border-image-slice: 1;
 }
 h1 {
   padding-top: 20px;
-}
-h1,
-h2 {
   font-size: 25px;
+}
+h2
+{
+  font-size: 15px;
 }
 ul {
   list-style: none;
