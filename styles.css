@@ -108,6 +108,8 @@ ul {
 }
 
 #opensource {
+  margin-top: 0;
+  margin-left: 50px;
   color: #86b1f8;
   cursor: pointer;
   transition: 0.3s;
