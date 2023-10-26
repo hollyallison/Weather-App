@@ -1,20 +1,19 @@
 .weather-container {
-  max-width: 600px;
   display: inline-block;
   margin: 0px auto;
-  padding: 25px 30px;
+  padding: 40px 30px;
   border-style: solid;
   border-radius: 10px;
-border-image: linear-gradient(45deg, #ff1494, #86b1f8) 4;
-border-width: 2px;
-border-image-slice: 1;
+  border-image: linear-gradient(45deg, #ff1494, #86b1f8) 4;
+  border-width: 2px;
+  border-image-slice: 1;
+  width: 100%;
 }
 h1 {
   padding-top: 20px;
   font-size: 25px;
 }
-h2
-{
+h2 {
   font-size: 15px;
 }
 ul {
@@ -29,11 +28,11 @@ ul {
   color: aliceblue;
   border-radius: 3px;
   cursor: pointer;
-   box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0);
   transition: box-shadow color 0.3s;
 }
 #search-button:hover {
- box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   background-color: #ff1494;
   border-color: #ff1494;
 }
@@ -55,13 +54,13 @@ ul {
   margin-top: 5px;
   font-size: 12px;
   cursor: pointer;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0);
   transition: box-shadow 0.3s;
 }
 #current-location-button:hover {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   color: #ff1494;
-  border-color:black;
+  border-color: black;
 }
 .weather-info {
   font-size: 12px;
@@ -95,13 +94,11 @@ ul {
 #fahrenheit-link {
   color: black;
   transition: 0.3s;
-     
 }
 #celsius-link:hover,
 #fahrenheit-link:hover {
   color: #ff1494;
   transition: 0.3s;
-
 }
 .Week-ahead-container {
   font-size: 15px;
