@@ -1,16 +1,16 @@
 .app {
   max-width: 800px;
-  margin: 30px auto;
-  font-family: 'Poppins', sans-serif;
-font-family: 'Raleway', sans-serif;
+margin: 30px auto;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 .weather-container {
   max-width: 700px;
- margin: 50px auto;
-padding: 30px;
-border: 2px solid;
-border-color:#dee1e6 ;
-border-radius: 30px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 2px solid;
+  border-color: #dee1e6;
+  border-radius: 30px;
 }
 
 h1 {
@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-font-size: 15px;
+  font-size: 15px;
 }
 
 ul {
@@ -119,6 +119,7 @@ ul {
 
 #name,
 #opensource {
+  text-align: center;
   font-size: 12px;
 }
 
@@ -149,10 +150,10 @@ ul {
   margin-left: 18px;
   margin-bottom: 0px;
 }
-.forecast-temperature-max, .forecast-temperature-min {
+.forecast-temperature-max,
+.forecast-temperature-min {
   font-size: 12px;
   margin-left: 10px;
-
 }
 .forecast-temperature-min {
   opacity: 40%;
