@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css" />
     
@@ -11,34 +14,43 @@
     <title>Weather</title>
 </head>
 <body>
-
-    <div class="weather-container"> 
+<div class="app">
+<div class="weather-container"> 
         <div class="row"> 
-<div class="col-8"> 
-      
+<div class="col-8">   
     <form id="search-box">
-      <input type="text" id="city-input" placeholder="Enter a city" />
-      <button id="search-button">Search</button> <br/>
-      <button id="current-location-button">My location</button>
+      <input type="text" id="city-input" placeholder=" Enter a place" />
+      <button id="search-button"> 🔎 </button> 
+      <button id="current-location-button"> 📍 </button>
     </div> 
 </div>
-<div id="result"> 
-     <h2 id="current-day-time"> Monday 21:00  </h2>  
-            <h1 id="city-name"></h1>
-            <span id="Condition"></span><br/>
-  <img id="weather-icon" src="" alt="Weather Icon"/>     
-       <span id="temperature"></span>
-            <span class="units">
-                  <a href="#" class="active" id="celsius-link">°C </a>
-                  |
-                  <a href="#" id="fahrenheit-link" class="">°F</a></span>
 
-
-    <ul class="weather-info">   
-        <li id="Humidity">Humidity: </li>
+<div class="current-weather-container">
+    <div class="left-section"> 
+    <h1 id="city-name"></h1>
+    <div>
+        <h2 id="current-day-time">Monday 21:00</h2>
+        <span id="Condition"></span><br>
+        <ul class="weather-info">
+        <li id="Humidity">Humidity:</li>
         <li id="Wind">Wind:</li>
-    </ul>
-</div>    
+        </ul>
+    </div>
+    </div>
+    <div class="middle-section"> 
+    <img id="weather-icon" src="" alt="Weather Icon">
+   </div> 
+   <div>
+    <div class="right-section">
+        <span id="temperature"></span>
+        <span class="units">
+            <a href="#" class="active" id="celsius-link">°C</a> |
+            <a href="#" id="fahrenheit-link" class="">°F</a>
+        </span>
+    </div>
+
+</div>
+</div>
 
 <section class="week-ahead-container" id="weather-forecast">
 </section>
@@ -51,6 +63,6 @@
 
 <a href="https://github.com/hollyallison/Weather-App" id="opensource">Open-source code</a> 
 <span id="name">by Holly Allison</span>
-
+</div>
 </body>
 </html>
